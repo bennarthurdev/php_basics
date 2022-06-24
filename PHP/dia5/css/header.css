@@ -1,0 +1,20 @@
+*{
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;/*This makes sure that the padding and border are included in the total width and height of the elements. */
+}
+ul{/*remove all default styles */
+	font-size: 1.3em;
+	width: 100%;
+	background-color: rgb(73, 88, 103);
+	text-align: center;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+ul a:hover{
+	font-size:125%;
+	background-color: rgb(87, 115, 153);
+	border-bottom: white solid 1.3em;
+}
